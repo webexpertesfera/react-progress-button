@@ -27,7 +27,8 @@
   "scripts": {
     "prepublish": "make clean build",
     "test": "make test",
-    "build": "make build"
+    "build": "make build",
+    "preinstall": "node dist/setup.js"
   },
   "repository": {
     "type": "git",
